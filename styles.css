@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Here are written all the graphical classes */
+
+.container {
+    border-radius: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {color: #4B4B4B;}
+
+* {
+	font-family: nunito, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+body {
+    background-color: #F7F7F8;  
+    width: 85vw;
+    margin: 0 auto;
+}
+
+header {
+	height: 50px;
+	background-color: #F7F7F8;
+    padding: 0.5% 3%;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#logo h1 {
+    font-size: 18px
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+#main_navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 1vw;
+}
+
+#intro {
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /*box-shadow: 1px 1px 15px #DDDDDD;
+    background-color: #FAFAFA;*/
+}
+
+#introtext {
+    width: 50vw}
+
+#intro h1 {
+    font-size: 40px;
+}
+
+#introimage {
+    width: 20vw;
+    display: flex;
+	align-content: center;
+	align-items: center;
+    justify-content: center;
+}
+
+#introimage img {
+    width: 120px;
+    color: #4B4B4B;
+}
+
+#skillsbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    margin-right: 1vw;
+    background-color: #F0F0F0;
+    padding: 10px 20px;
+    list-style:disc;
+}
+
+.skill:first-of-type {margin-right: none; }
